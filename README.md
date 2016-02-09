@@ -6,9 +6,9 @@ Hello, and welcome to Learn to Code! This lesson is designed to teach you how to
 
 ##### What You'll Learn:
 In this Learn to Code workshop, you'll learn the essentials of Git, the most common version control tool that millions of coders use while developing for the web. We will also learn how to use Github, a popular Git-based repository to host your projects online. 
-• How to create and work in a local repository
-• How to work remotely using GitHub (push and pull) 
-• How to fork, clone, merge, and delete and branch repositories
+- How to create and work in a local repository
+- How to work remotely using GitHub (push and pull)
+- How to fork, clone, merge, and delete and branch repositories
 
 ##### How to Prepare:  
 - Bring your laptop, fully charged (bring your charger just in case)
