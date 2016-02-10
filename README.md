@@ -20,4 +20,28 @@ In this Learn to Code workshop, you'll learn the essentials of Git, the most com
 ##### Prerequisites:
 None, but it would be helpful to have previously completed our HTML and CSS workshops.
 
-##
+## Setting Up Your Computer
+Before we begin, you need to make sure that the following is set up on your computer:
+- Git Bash - To serve as our command prompt and terminal
+- A GitHub account - To sync your work locally with an online repo
+- GitHub Desktop - A GUI version of syncing your work online
+- Atom text editor - our text editor of choice for Learn to Code
+- Google Chrome - our web browser of choice for element inspection
+Use the links under "How to Prepare:" to set these apps up. This may take some time...
+Don't be afraid to ask for help. we'll get through it!
+
+## Pushing and Pulling in Git
+
+#### Config your Git
+First step we need to do is configure your computer so that Git know who is making changes.
+Open up your Git Bash and enter in the following commands:
+```
+$ git config --global user.name "<Your Name>"
+```
+Now set your email:
+```
+$ git config --global user.email "<youremail@example.com>"
+```
+Your computer is now configured to you and your email address.
+
+
