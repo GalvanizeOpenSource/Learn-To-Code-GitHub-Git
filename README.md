@@ -23,13 +23,15 @@ Before we begin, you need to make sure that the following is set up on your comp
 - Git Bash - To serve as our command prompt and terminal
 - A GitHub account - To sync your work locally with an online repo
 - Atom text editor - our text editor of choice for Learn to Code
+
 Use the links under "How to Prepare:" to set these apps up. This may take some time...
+
 Don't be afraid to ask for help. we'll get through it!
 
 ## Navigating Git
 
 Git Bash is a Unix-based terminal - a text-based way to type commands into your computer. 
-Below are some common commands in Git (functions are listed after the "//":
+Below are some common commands in Git (functions are listed after the "//"):
 ```
 $ cd <FOLDER> // "change directory" to the listed folder. "cd" is used a lot to navigate in an out of folders.
 ```
@@ -45,7 +47,7 @@ $ git init // This will turn Git "on" in this folder
 ```
 $ git help // For more commands in Git, use "git help".
 ```
-#### Exercise: let's "Git" Going!
+#### Exercise: Let's "Git" Going!
 Try to do the following:
 
 1. Navigate to the place you want to create your folder with Git
@@ -92,6 +94,52 @@ Step 3: Commit the changes with a message
 $ git commit -m “<your commit message>” // save your changes with a MANDATORY note
 ```
 
+## Working Remotely
+Now that you've got a taste of working locally, let's take it up a notice. First, we need to re-configure your Git to work with your GitHub.
+
+#### Configure Git for GitHub
+In Bash, enter in the command to sync your folder with your GitHub account:
+```
+$ git config --global user.username "USeRnAMe" // this is case-sensitive and does not need "<" or ">"
+```
+Verify that the configuration was successful here:
+```
+$ git-it verify
+```
+#### Pushing to GitHub
+Pushing is another way to say that we're doing to upload code to GitHub from your local computer. 
+- Gut check: what's the difference between PUSHING and COMMITTING?
+
+#### Exercise: Create a Remote Repository in GitHub
+1. Go to github.com, log in, and click the '+' in the top right to create a new repository.
+2. Give it a name that matches your local repository's name, 'hello-world', and a short description.
+3. Make it public.
+4. Don't initialize with a README because we already have a file, locally, named 'readme.txt'.
+5. Leave .gitignore and license on 'none'.
+6. Click create repository!
+
+#### Connect the remote to your GitHub repo
+In Bash, in the folder of your choosing:
+```
+$ git remote add origin <URLfromGitHub>
+```
+Bonus: you can also change the remote to another URL:
+```
+$ git remote set-url <RemoteName> <URL>
+```
+#### Time to push!
+Here is the command to push from your original remote copy to the GitHub master:
+```
+$ git push origin master
+```
+#### Practice a pull!
+If you have access, you can also pull from the master or any repo to your computer:
+```
+$ git pull origin master
+```
+
+## Forking and Cloning
 
 
-- Install GitHub Desktop: https://desktop.github.com/
+## Optional: Install GitHub Desktop: 
+https://desktop.github.com/
