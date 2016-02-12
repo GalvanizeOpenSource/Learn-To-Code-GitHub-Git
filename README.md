@@ -95,7 +95,7 @@ $ git commit -m “<your commit message>” // save your changes with a MANDATOR
 ```
 
 ## Working Remotely
-Now that you've got a taste of working locally, let's take it up a notice. First, we need to re-configure your Git to work with your GitHub.
+Now that you've got a taste of working locally, let's take it up a notch. First, we need to re-configure your Git to work with your GitHub.
 
 #### Configure Git for GitHub
 In Bash, enter in the command to sync your folder with your GitHub account:
@@ -139,7 +139,108 @@ $ git pull origin master
 ```
 
 ## Forking and Cloning
+In GitHub you can make two kinds of copies with open-source code:
+
+**Fork** - creating a copy within GitHub from one account to another
+
+or
+
+**Clone** - creating a copy from GitHub to your computer
+
+#### Exercise: Copy our Cookie Recipe
+
+1. Log in to your GitHub account
+2. Go to: https://github.com/GalvanizeOpenSource/Chocolate-Chip-Cookies
+3. Click the “Fork” Button
 
 
-## Optional: Install GitHub Desktop: 
-https://desktop.github.com/
+#### Exercise: Let's Clone the Recipe
+Let’s do it in a different folder first.
+
+Step 1: Navigate out of the "hello-world" folder
+```
+$ cd .. // to get out of the current folder
+```
+Step 2: Clone the precise URL
+```
+$ git clone <GitHubURL> // copies the folder and file to your computer
+```
+Step 3: Open the file in Atom to check it out!
+
+Optional: You can also connect remotely to get updates faster
+```
+$ git remote add upstream <GitHubURL>
+```
+
+## Branching and Merging
+We can’t/shouldn’t all be messing with the original master - even on your local computer.
+
+**Solution:** create a branch to keep your changes until they’re ready to push. This protects the master from unwanted changes and allows for a smoother, safer workflow.
+
+#### Here are some common branch commands in Git:
+```
+$ git branch // lists all the existing branch
+```
+```
+$ git branch <BranchName> // create a new branch
+```
+```
+$ git status // will tell you which branch you are on
+```
+```
+$ git checkout <BranchName> // let’s you explore that branch (or switch to a different one)
+```
+```
+$ git branch -m <BranchName> // rename a branch you are currently working on (checkout first)
+```
+
+#### Exercise: Let's Branch Our Readme!
+
+1. Navigate back to the “hello-world” folder
+2. Create a branch called “readme-edits”
+3. Add some text to that readme.txt via your text editor
+4. Go through the status/add/commit process to check-in your changes
+
+#### Merging: may our forces combine!
+Now that we've committed the branch changes, let's commit to the master.
+
+#### Common Merging Commands
+```
+$ git merge <BranchName> // merges the branch you just worked on into the origin.
+```
+```
+$ git branch -d <BranchName> // deletes the branch - it is no longer needed
+```
+
+#### Exercise: Let's merge our readme!
+1. Navigate in Git to the origin branch by using “checkout”
+2. Merge the branch “readme-edits” 
+3. Push the branch to GitHub
+
+Optional: delete the “readme-edits” branch
+
+## YOU DID IT! YOU ARE NOW A SOCIAL CODER!
+
+#### Play around in the sandbox a bit more
+- Fork and clone some more open-source Github repos
+- Make a pull request (what is this?)
+- Push just your branch into GitHub
+- Explore other commands “git help”
+
+#### Optional: Install GitHub Desktop
+If you prefer to do all of this on a Graphical User Interface (GUI), check out: https://desktop.github.com/
+
+#### Want to code more? Check out Galvanize's Full Stack Immersive Program!
+
+- 24 Week Full-Time Program
+- 97% Job Placement Rate within six months
+- Average starting salary: $77,000 per annum
+- Scholarships available for those who qualify
+- Learn more at http://galvanize.com/courses/fullstack/
+
+**About the Author**
+
+Lee Ngo is an evangelist for Galvanize based in Seattle. Previously he worked for UP Global (now Techstars) and founded his own ed-tech company in Pittsburgh, PA. Lee believes in learning by doing, engaging and sharing, and he teaches code through a combination of visual communication, teamwork, and project-oriented learning.
+
+You can email him at lee.ngo@galvanize.com for any further questions.
+
