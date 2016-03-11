@@ -2,10 +2,10 @@
 Learn the fundamentals of Github, Git, and command-line coding
 
 ## Introductions
-Hello, and welcome to Learn to Code! This lesson is designed to teach you how to work in Git and GitHub. 
+Hello, and welcome to Learn to Code! This lesson is designed to teach you how to work in Git and GitHub.
 
 ##### What You'll Learn:
-In this Learn to Code workshop, you'll learn the essentials of Git, the most common version control tool that millions of coders use while developing for the web. We will also learn how to use Github, a popular Git-based repository to host your projects online. 
+In this Learn to Code workshop, you'll learn the essentials of Git, the most common version control tool that millions of coders use while developing for the web. We will also learn how to use Github, a popular Git-based repository to host your projects online.
 - How to create and work in a local repository
 - How to work remotely using GitHub (push and pull)
 - How to fork, clone, merge, and delete and branch repositories
@@ -26,11 +26,11 @@ Before we begin, you need to make sure that the following is set up on your comp
 
 Use the links under "How to Prepare:" to set these apps up. This may take some time...
 
-Don't be afraid to ask for help. we'll get through it!
+Don't be afraid to ask for help. We'll get through it!
 
 ## Navigating Git
 
-Git Bash is a Unix-based terminal - a text-based way to type commands into your computer. 
+Git Bash is a Unix-based terminal - a text-based way to type commands into your computer.
 Below are some common commands in Git (functions are listed after the "//"):
 ```
 $ cd <FOLDER> // "change directory" to the listed folder. "cd" is used a lot to navigate in an out of folders.
@@ -43,7 +43,7 @@ $ ls // This command lists files in your folder.
 ```
 ```
 $ git init // This will turn Git "on" in this folder
-``` 
+```
 ```
 $ git help // For more commands in Git, use "git help".
 ```
@@ -81,9 +81,9 @@ Code is easy to screw up in teams. Fortunately, Git has a LOT of processes to pr
 
 Any time you want to save changes in Git, you must follow this 3-step command process.
 
-Step 1: Check the status 
+Step 1: Check the status
 ```
-$ git status // checks the changes you’ve made to this folder 
+$ git status // checks the changes you’ve made to this folder
 ```
 Step 2: Add the changes for commitment
 ```
@@ -107,7 +107,7 @@ Verify that the configuration was successful here:
 $ git-it verify
 ```
 #### Pushing to GitHub
-Pushing is another way to say that we're doing to upload code to GitHub from your local computer. 
+Pushing is another way to say that we're doing to upload code to GitHub from your local computer.
 - Gut check: what's the difference between PUSHING and COMMITTING?
 
 #### Exercise: Create a Remote Repository in GitHub
@@ -214,7 +214,7 @@ $ git branch -d <BranchName> // deletes the branch - it is no longer needed
 
 #### Exercise: Let's merge our readme!
 1. Navigate in Git to the origin branch by using “checkout”
-2. Merge the branch “readme-edits” 
+2. Merge the branch “readme-edits”
 3. Push the branch to GitHub
 
 Optional: delete the “readme-edits” branch
@@ -243,4 +243,3 @@ If you prefer to do all of this on a Graphical User Interface (GUI), check out: 
 Lee Ngo is an evangelist for Galvanize based in Seattle. Previously he worked for UP Global (now Techstars) and founded his own ed-tech company in Pittsburgh, PA. Lee believes in learning by doing, engaging and sharing, and he teaches code through a combination of visual communication, teamwork, and project-oriented learning.
 
 You can email him at lee.ngo@galvanize.com for any further questions.
-
