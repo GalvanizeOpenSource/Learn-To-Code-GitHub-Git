@@ -106,6 +106,25 @@ Verify that the configuration was successful here:
 ```
 $ git-it verify
 ```
+??
+```
+$ git config --list
+user.name=John Doe
+user.email=johndoe@example.com
+color.status=auto
+color.branch=auto
+color.interactive=auto
+color.diff=auto
+...
+```
+OR
+```
+$ git config <key>
+
+$git config user.name
+John Doe
+```
+
 #### Pushing to GitHub
 Pushing is another way to say that we're doing to upload code to GitHub from your local computer. 
 - Gut check: what's the difference between PUSHING and COMMITTING?
