@@ -102,9 +102,9 @@ In Bash, enter in the command to sync your folder with your GitHub account:
 ```
 $ git config --global user.username "USeRnAMe" // this is case-sensitive and does not need "<" or ">"
 ```
-Verify that the configuration was successful here:
+Verify that the configuration was successful:
 ```
-$ git-it verify
+$ git config --list
 ```
 ??
 ```
