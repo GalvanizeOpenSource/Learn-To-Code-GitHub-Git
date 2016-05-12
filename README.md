@@ -104,7 +104,7 @@ $ git config --global user.username "USeRnAMe" // this is case-sensitive and doe
 ```
 Verify that the configuration was successful here:
 ```
-$ git-it verify
+$ git config -l
 ```
 ??
 ```
